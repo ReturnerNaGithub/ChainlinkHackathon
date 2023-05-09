@@ -1,0 +1,50 @@
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity ^0.8.0;
+
+contract MyNFTContract {
+
+    //struct to represent the properties of the nft
+    struct MyNFT {
+        string name;
+        string description;
+        uint256 tokenId;
+        address winner;
+        string uniqueCode;
+        string imageHash; // hash of the image file on IPFS
+    }
+
+    //array to store all nfts created
+    MyNFT[] public myNFTs;
+
+    //function creates a new nft and assigns a unique code to the winner
+    function createNFT(string memory name, string memory description, uint256 tokenId, address winner, string memory uniqueCode, string memory imageHash) public {
+        MyNFT memory newNFT = MyNFT(name, description, tokenId, winner, uniqueCode, imageHash);
+        myNFTs.push(newNFT);
+    }
+
+    //gets the total number of nfts created
+    function getNFTCount() public view returns (uint256) {
+        return myNFTs.length;
+    }
+
+    //function to get the unique code for a given nft tokenId
+    function getUniqueCode(uint256 tokenId) public view returns (string memory) {
+        for (uint256 i = 0; i < myNFTs.length; i++) {
+            if (myNFTs[i].tokenId == tokenId) {
+                return myNFTs[i].uniqueCode;
+            }
+        }
+        return "";
+    }
+
+    //function to get the image hash for a given nft tokenId
+    function getImageHash(uint256 tokenId) public view returns (string memory) {
+        for (uint256 i = 0; i < myNFTs.length; i++) {
+            if (myNFTs[i].tokenId == tokenId) {
+                return myNFTs[i].imageHash;
+            }
+        }
+        return "";
+    }
+}
