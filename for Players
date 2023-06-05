@@ -1,4 +1,25 @@
+This is game for you to test it. Its a test version and will lead you threw some codes.
+
+This is link of the game:
+
+https://www.dropbox.com/scl/fo/cmm2p39f5m07yvxruxylj/h?dl=0&rlkey=bdux5pmf0yiapye1bsf68cdmi
+
 1. Dowload Epic Launcher : https://store.epicgames.com/en-US/
 2. Open Game: In Epic launcher
+
 3. In Folder: Content-Widgets: Create new widget: BP_TrigerDiscord (right click, widget inteface)
 4. Customize Widget with BUTTON !
+5. On Button create Event: On Clicked
+6.Add URL: https://discord.gg/pBFzE8BV
+
+7. Place Trigger Box where you want
+8. Open Level Blueprint
+9. Drag funcion OnActorBeginOverlap(yourTriggerBox)
+
+10. Pin to it: DoOnce,Create BP Trigger Discord Widget, Add to Viewport, Set mouse curson and GetPlayerControler.
+
+Play the game, step into your good work and take your Reward: NFT Ticket
+
+
+
+
