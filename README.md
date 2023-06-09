@@ -12,6 +12,19 @@ FOR NFTS AND NFT AVATARS USING PLUGIN: EMERGENCE
 6. dNFT is needed in the game : Next Level
 
 ![github picture](https://github.com/ReturnerNaGithub/ChainlinkHackathon/assets/78732470/fb48d5d7-dfc5-4fb9-ae8d-ff4ff05f827d)
+
+This is file for demo game. Dowload and unzip.
+
+https://www.dropbox.com/scl/fo/a36w85wt99hs37y3st25c/h?dl=0&rlkey=dpt2azscbi3f8tb2f3k2wvgmq
+
+For playing the game you need Epic louncher:
+
+https://store.epicgames.com/en-US/
+
+Some tips in the game:
+
+https://www.youtube.com/watch?v=j8TOA3em6jw
+
 ![image](https://github.com/ReturnerNaGithub/ChainlinkHackathon/assets/78732470/d0ca1dc4-8623-4565-8ab9-99a60fb67d96)
 
 
