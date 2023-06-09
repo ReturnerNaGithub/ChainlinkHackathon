@@ -25,7 +25,7 @@ Some tips in the game:
 
 https://www.youtube.com/watch?v=j8TOA3em6jw
 
-![image](https://github.com/ReturnerNaGithub/ChainlinkHackathon/assets/78732470/d0ca1dc4-8623-4565-8ab9-99a60fb67d96)
+![app](https://github.com/ReturnerNaGithub/ChainlinkHackathon/assets/78732470/c271b8c7-e63a-4134-9c36-864db2217c35)
 
 
 
