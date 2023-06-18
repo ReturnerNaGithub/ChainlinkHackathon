@@ -5,8 +5,8 @@
 FOR NFTS AND NFT AVATARS USING PLUGIN: EMERGENCE
 
 1. Data from the Game go to the web 3.
-2. - testnet Mumbai
-3. - other testnets
+2. - testnet Sepolia
+3. - mainnet polygon
 4. Data from the Game go to the AWS. Deploy + players data
 5. Player own : 4 diferent assets ( tokens, NFT assets, assets and Avatars )
 6. dNFT is needed in the game : Next Level
